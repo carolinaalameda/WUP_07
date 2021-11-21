@@ -44,7 +44,7 @@ barchartGC(~result + Sex,data=kRdata, type="percent")
 
 ```
 
-This plot is counting the amount of people that have caught COVID and have died or are still alive. It is divided by sex, female and male. About 60% of the females are alive and about 40% have died. You can also tell with the chart that males are dying more frequently than females.
+This first plot is counting the amount of people that have caught COVID and have died or are still alive. It is divided by sex, female and male. In the second plot we read that about 60% of the females are alive and about 40% have died. You can also tell with the chart that males are dying more frequently than females almost twice as much.
 
 
 

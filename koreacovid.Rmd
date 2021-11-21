@@ -62,6 +62,19 @@ In this table, we can read the results of females and males out of 100 that have
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+The chi sq test provides the exact numbers. This test shows that 1831 were females and 1411 males were alive. Along with showing that 25 females and 44 males died.
+
+The fisher test gives us the odds of dying for males which is 44/1411 and the odds of females dying which is 25/1831. The odds ratio is 44/1411 divided by 25/1831 is 2.3. The odds ration shows that males are 2.3x more likely to die than females.
 
 ## Conclusions
+
+
+
+
 

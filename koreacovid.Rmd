@@ -49,14 +49,18 @@ This first plot is counting the amount of people that have caught COVID and have
 
 
 
-
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+In this table, we can read the results of females and males out of 100 that have died or are still alive. In our previous chart we estimated that males have a higher percentage of death than females. According to this chart it is almost double when comparing female and male death. Males have a 3% while females have a 1.4%.
 
 ## Inferential results 
-
-
 
 
 ## Conclusions

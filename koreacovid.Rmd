@@ -74,7 +74,7 @@ The fisher test gives us the odds of dying for males which is 44/1411 and the od
 
 ## Conclusions
 
-
+To conclude, the data shows males being more likely to die than females from covid. However the data was taken at the beginning of covid so not much information was avaliable. 
 
 
 

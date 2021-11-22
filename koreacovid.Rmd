@@ -38,10 +38,9 @@ with(kRdata, table(Sex, result))
 
 ## We create two bar charts - one based on frequency and the other on percent, use ggplot commands to do this
 
-````{r}
-barchartGC(~result + Sex,data=kRdata)
-barchartGC(~result + Sex,data=kRdata, type="percent")
-
+```{r}
+barchartGC(~result + sex,data=kRdata)
+barchartGC(~result + sex,data=kRdata, type="percent")
 ```
 
 This first plot is counting the amount of people that have caught COVID and have died or are still alive. It is divided by sex, female and male. In the second plot we read that about 60% of the females are alive and about 40% have died. You can also tell with the chart that males are dying more frequently than females almost twice as much.
